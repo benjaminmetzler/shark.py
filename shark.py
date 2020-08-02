@@ -7,7 +7,7 @@ import hidapi
 import argparse
 
 def SendCommand(packet_array):
-    packets = chr(0x00) # pero need to pre-pad with 0x00 per hid_write docu
+    packets = chr(0x00) # pre-pad with 0x00 per hid_write documentation
     for byte in packet_array:
         packets = packets + chr(int(byte, 16) )
 
