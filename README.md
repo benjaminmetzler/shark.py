@@ -1,7 +1,7 @@
 # Introduction
 This is my port of Michael Rolig's [shark.c](https://raw.githubusercontent.com/benjaminmetzler/til/main/misc/archive/shark.c) code to python.  As that code was in the public domain, this code is also in the public domain.
 
-There are plenty of software-defined radios available that offer a lot more functionality but they are all missing one critical feature: a fin shape.  Sure you can only receive AM and FM radio, but the RadioSHARK comes in a slick shark fin shape.
+There are plenty of software-defined radios available that offer a lot more functionality but they are all missing one critical feature: a fin shape.  The RadioSHARK, on the otherhand, receives AM, FM, and is fin shaped making it the best USB radio receiver ever produced.
 
 Anyway, this python script will allow you to control a the first version of the RadioSHARK.
 
