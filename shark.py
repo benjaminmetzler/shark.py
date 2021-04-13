@@ -15,6 +15,7 @@ def SendCommand(packet_array):
 
     # Connect to the RadioSHARK
     dev=hidapi.hid_open(0x077d, 0x627a)
+    
     # Write the packets
     packets_written = hidapi.hid_write(dev, packets)
 
@@ -41,7 +42,7 @@ parser.add_argument('-am', action='store', help="set AM frequency, e.g. '-am 620
 parser.add_argument('--debug','-d', action='store_true', default=False)
 args = parser.parse_args()
 
-# doesn't make much sense to tune to AM and FM
+# Doesn't make much sense to tune to AM and FM
 if args.am and args.fm:
     print "ERROR: You can't select am and fm at the same time"
     parser.print_usage()
