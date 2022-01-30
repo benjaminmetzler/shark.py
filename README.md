@@ -6,7 +6,7 @@ There are plenty of software-defined radios available that offer a lot more func
 
 Anyway, this python script will allow you to control a the first version of the RadioSHARK.
 
-This script uses the [awelkie/pyhidapi](https://github.com/awelkie/pyhidapi) python module, which must be installed using the instructions on the page.
+This script uses the [awelkie/pyhidapi](https://github.com/awelkie/pyhidapi) python module, which must be installed using the instructions on the page.  It also relies on [libusb/hidapi](https://github.com/libusb/hidapi)
 
 
 ## Usage
