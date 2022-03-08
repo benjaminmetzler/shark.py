@@ -35,7 +35,7 @@ $ python shark.py -blue 0 # turn off the blue LED
 
 ## Docker Usage
 
-1. Build the image: `docker build -t .`
+1. Build the image: `docker build -t radioshark .`
 1. Run the image in privlaged mode (to give access to the USB devices): `docker run --privileged -it radioshark /bin/sh`
 1. Run the above commands in the docker container.
 
