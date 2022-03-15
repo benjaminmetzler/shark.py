@@ -4,7 +4,7 @@ This is my python port of Michael Rolig's [shark.c](https://raw.githubuserconten
 
 There are plenty of software-defined radios available that offer a lot more functionality but they are all missing one critical feature: a fin shape.  The RadioSHARK, on the otherhand, receives AM, FM, and is fin shaped making it the best USB radio receiver ever produced.
 
-Anyway, this python script will allow you to control a the first version of the RadioSHARK.
+Anyway, this python script will allow you to control the first version of the RadioSHARK.
 
 This script uses the [awelkie/pyhidapi](https://github.com/awelkie/pyhidapi) python module, which must be installed using the instructions on the page.  You will also need to install `hidapi` on some versions of Linux (e.g. Ubuntu Server).
 
